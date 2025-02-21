@@ -1,0 +1,120 @@
+body {
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    background-color: #f2f8ff;
+}
+
+/*
+**********************
+Navbar CSS
+**********************
+*/
+
+.navbar-top {
+    background-color: transparent!important;
+    color: white!important;
+}
+
+.navbar-not-top {
+    background-color: #0e325e!important;
+    color: white!important;
+}
+
+a.navbar-brand {
+    color: white!important;
+    font-weight: bold;
+    font-size: 0.85vw;
+}
+
+a.nav-link {
+    color: white!important;
+    margin-left: 12px!important;
+    margin-right: 12px!important;
+    font-size: 0.80vw!important;
+}
+
+a.nav-link:hover {
+    border-bottom-color: lightgray!important;
+    color: lightgray!important;
+    border-bottom-width: thin!important;
+    border-bottom-style: solid;
+}
+
+/*
+**********************
+Container CSS
+**********************
+*/
+
+.custom-container {
+    position: relative;
+    width: 100%;
+    color: black!important;
+}
+
+.banner-container {
+    position: absolute;
+    color: white;
+    top: 25%;
+    width: 100%;
+}
+
+/*
+**********************
+Image CSS
+**********************
+*/
+
+.banner {
+    position: relative;
+    top: -12%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.banner-text {
+    font-size: 1.5vw;
+    padding: 10px;
+}
+
+.what-we-do {
+    width: 100%;
+}
+
+/*
+**********************
+Text CSS
+**********************
+*/
+
+.title {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.content-line {
+    font-size: 1vw;
+    padding: 10px;
+}
+
+/*
+**********************
+Button CSS
+**********************
+*/
+
+button.btn-white {
+    color: white!important;
+    border-color: white!important;
+    background-color: transparent!important;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 1vw;
+    padding: 10px 50px;
+}
+
+button.btn-white:hover {
+    background-color: #0d6efd!important;
+}
