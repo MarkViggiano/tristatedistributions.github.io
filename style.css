@@ -110,12 +110,12 @@ Text CSS
 */
 
 .title {
-    font-size: 4vw;
+    font-size: 4.2vw;
     font-weight: bold;
 }
 
 .content-line {
-    font-size: 1vw;
+    font-size: 3.8vh;
     padding: 10px;
 }
 
