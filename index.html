@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Pedretti Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tri-State Distributions</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -11,16 +12,16 @@
 <body>
 <nav class="navbar fixed-top navbar-expand-lg p-3 navbar-top" id="navbar">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">PEDRETTI WEBSITE</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">TRI-STATE DISTRIBUTIONS</a>
+        <button class="navbar-toggler" style="background-color: white!important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" aria-current="page" href="#">What We Do</a>
-                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+                <a class="nav-link" aria-current="page" href="#whatwedo">What We Do</a>
+                <a class="nav-link" aria-current="page" href="#contact">Contact Us</a>
             </div>
         </div>
     </div>
@@ -28,19 +29,21 @@
 <img fetchpriority="high" src="./images/dark_banner_image.jpg" alt="banner" class="banner" decoding="async">
 
 <div data-bs-spy="scroll" data-bs-target="#navbar" class="banner-container text-center" data-bs-offset="0" tabindex="0">
-    <div class="container w-50 mx-auto" id="about">
-        <p class="title"> <u>Tri-State Distributions</u>: We Buy. You Get Paid. No Risk.</p>
+    <div class="container w-50 mx-auto">
+        <p class="banner-title"> <u>Tri-State Distributions</u>: We Buy. You Get Paid. No Risk.</p>
         <p class="banner-text mt-2" style="color: white!important;">We purchase inventory directly from brands and wholesalers in bulk, ensuring fast payments, no sales risks, and zero fulfillment headaches.</p>
-        <button class="btn btn-white mt-4">Contact Us</button>
+        <a style="color: white!important; font-style: normal!important;" aria-current="page" href="#contact">
+            <button class="btn btn-white mt-4">Contact Us</button>
+        </a>
     </div>
 </div>
 
-<div class="row custom-container" style="width: 101%!important;">
-    <div class="col-lg-2 col-md-2 col-sm-12 w-50 h-50 p-0">
+<div class="row custom-container" style="width: 101%!important;" id="about">
+    <div class="col-sm w-100 h-50 p-0">
         <img fetchpriority="high" src="./images/logo.jpg" alt="What We Do" class="what-we-do" decoding="async">
     </div>
-    <div class="col-lg-4 col-md-2 col-sm-12 p-0 w-50">
-        <div class="container p-3">
+    <div class="col-sm p-0 w-100">
+        <div class="container p-3 text-start">
             <p class="title">Who We Are.</p>
             <p class="content-line">Tri-State Distributions is a high-volume e-commerce distributor that buys inventory upfront from brands and wholesalers.</p>
             <p class="content-line">Instead of managing listings, pricing, and fulfillment yourself, we take on the risk and do the heavy lifting-so you don’t have to.</p>
@@ -53,7 +56,7 @@
 </div>
 
 <div class="row custom-container p-0" style="color:white; width: 101%!important;">
-    <div class="col-lg-4 col-md-2 col-sm-12 w-50 p-0">
+    <div class="col-sm p-0">
         <div class="container w-75 text-start">
             <p class="title">Why Sell to Us?</p>
             <p class="content-line">Selling through Amazon or e-commerce platforms is time-consuming and unpredictable. By selling to us, you offload risk, eliminate fulfillment costs, and guarantee revenue with upfront payments.</p>
@@ -63,19 +66,51 @@
 
         </div>
     </div>
-    <div class="col-lg-2 col-md-2 col-sm-12 w-50 h-50 p-0">
+    <div class="col-sm w-100 h-50 p-0">
         <img fetchpriority="high" src="./images/side_content.png" alt="What We Do" class="what-we-do" decoding="async">
     </div>
 
 </div>
 
-<div class="custom-container primary-background" style="width: 101%!important;">
+<div class="custom-container primary-background" style="width: 101%!important;" id="whatwedo">
     <p class="text-center title position-relative p-5">Our Process</p>
-    <div class="row position-relative p-5">
-        <div class="col-lg-1 col-md-4 col-sm-12 w-50 p-0">Hello 1</div>
-        <div class="col-lg-1 col-md-4 col-sm-12 w-50 p-0">Hello 2</div>
-        <div class="col-lg-1 col-md-4 col-sm-12 w-50 p-0">Hello 3</div>
+    <div class="row position-relative text-center p-5 align-items-start">
+        <div class="col-sm p-5">
+            <div class="container p-3 box">
+                <p class="box-title">You Sell to Us</p>
+                <hr class="box-line">
+                <p class="content-line">
+                    We buy your inventory in bulk, eliminating the risk of slow-moving stock
+                </p>
+            </div>
+        </div>
+        <div class="col-sm col-lg-4 p-5">
+            <div class="container p-3 box">
+                <p class="box-title">We Handle Everything</p>
+                <hr class="box-line">
+                <p class="content-line">
+                    We manage warehousing, pricing, fulfillment & customer service.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm col-lg-4 p-5">
+            <div class="container p-3 box">
+                <p class="box-title">You Sell to Us</p>
+                <hr class="box-line">
+                <p class="content-line">
+                    No waiting for sales—we send fast & reliable payments for your products.
+                </p>
+            </div>
+        </div>
     </div>
+</div>
+
+<div class="custom-container text-start text-center p-5" id="contact">
+    <p class="title">Contact Us</p>
+    <p class="content-line">📍 New Jersey-Based | Buying from Brands & Wholesalers Nationwide</p>
+    <p class="content-line">📧 Sell to Us: partner@tristatedistributions.com</p>
+    <p class="content-line">📞 Call Us: [Your Phone]</p>
+    <p class="content-line">🔗 Follow Us on LinkedIn</p>
 </div>
 
 </body>

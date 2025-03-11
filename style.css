@@ -75,6 +75,40 @@ Container CSS
     width: 100%;
 }
 
+@media screen and (max-device-width: 768px) {
+    .banner-container {
+        top: 5%!important;
+    }
+
+    .mt-4 {
+        margin-top: 1%!important;
+    }
+
+    a.navbar-brand {
+        color: var(--navbar-text-color)!important;
+        font-weight: bold;
+        font-size: 0.85vh;
+    }
+
+    a.nav-link {
+        color: var(--navbar-text-color)!important;
+        margin-left: 12px!important;
+        margin-right: 12px!important;
+        font-size: 0.80vh!important;
+    }
+
+    .content-line {
+        font-size: 3.8vw!important;
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 4.2vh!important;
+        font-weight: bold;
+    }
+
+}
+
 .primary-background {
     background-color: var(--primary)!important;
     color: var(--text-color)!important;
@@ -92,6 +126,11 @@ Image CSS
     left: 0;
     width: 100%;
     z-index: -1;
+}
+
+.banner-title {
+    font-size: 4.2vw;
+    font-weight: bold;
 }
 
 .banner-text {
@@ -138,4 +177,36 @@ button.btn-white {
 
 button.btn-white:hover {
     background-color: var(--secondary)!important;
+}
+
+/*
+**********************
+Box CSS
+**********************
+*/
+
+.box {
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.box-title {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.box-line {
+    color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+@media screen and (max-device-width: 728px) {
+    .box-title {
+        font-size: 2.5vh;
+        font-weight: bold;
+    }
 }
